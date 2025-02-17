@@ -39,7 +39,7 @@ jobs:
         run: echo "GOOGLE_API_KEY is set"
 
       - name: Run Dashboard Script
-        run: streamlit run dashboard.py  # Run the Streamlit dashboard
+        run: python dashboard.py  # Run the Streamlit dashboard
         env:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
 
