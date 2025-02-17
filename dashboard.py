@@ -6,7 +6,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
 from wordcloud import WordCloud
-import os
 
 # 🎨 Streamlit Page Configuration
 st.set_page_config(
@@ -15,11 +14,11 @@ st.set_page_config(
     layout="wide",
 )
 
+import os
 # 🔑 Replace with your actual YouTube API Key
 API_KEY = os.getenv("GOOGLE_API_KEY")
 if not API_KEY:
     raise ValueError("Missing API Key! Set GOOGLE_API_KEY in GitHub Secrets.")
-
 print("API Key Loaded Successfully")  # Avoid printing actual key for security
 youtube = build("youtube", "v3", developerKey=API_KEY)
 
