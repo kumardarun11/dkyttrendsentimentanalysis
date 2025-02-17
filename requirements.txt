@@ -1,0 +1,8 @@
+streamlit
+google-api-python-client
+pandas
+textblob
+matplotlib
+seaborn
+plotly
+wordcloud
