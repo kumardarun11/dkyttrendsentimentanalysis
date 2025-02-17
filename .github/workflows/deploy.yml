@@ -7,7 +7,23 @@ on:
 
 jobs:
   deploy:
+    runs-on: ubuntu-latestjobs:
+  deploy:
     runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up environment variables
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+
+      - name: Debug Environment Variables
+        run: echo "GOOGLE_API_KEY is set"
+
+      - name: Run Python Script
+        run: python dashboard.py
+
 
     steps:
       - name: Check out repository code
@@ -25,4 +41,4 @@ jobs:
         run: echo "GOOGLE_API_KEY=${{ secrets.GOOGLE_API_KEY }}" >> $GITHUB_ENV
 
       - name: Run Python Script
-        run: python dashboard.py  # Run your script
+        run: python youtube_analysis.py  # Run your script
