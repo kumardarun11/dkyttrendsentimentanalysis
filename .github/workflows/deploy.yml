@@ -40,6 +40,8 @@ jobs:
 
       - name: Run Dashboard Script
         run: python dashboard.py  # Run the Streamlit dashboard
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
 
       - name: Run YouTube Analysis Script
         run: python youtube_analysis.py  # Run the YouTube script
