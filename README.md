@@ -50,23 +50,23 @@ streamlit run dashboard.py
 
 ### 1️⃣ Trending Videos
 
-![image](https://github.com/user-attachments/assets/5e10c44e-f818-4e06-8f71-c3d965f90b59)
+![Screenshot 2025-02-16 202230](https://github.com/user-attachments/assets/a5a72164-d052-46f3-90ac-057361ee5617)
 
 ### 2️⃣ Trending Videos Insights
 
-![image](https://github.com/user-attachments/assets/4036efa3-bc14-4838-ab36-182a0a281925)
+![Screenshot 2025-02-16 202444](https://github.com/user-attachments/assets/dc07e303-5151-4754-be30-511899f60ab2)
 
 ### 3️⃣ Comments Sentiment Analysis
 
-![image](https://github.com/user-attachments/assets/8bc388a6-d152-4158-9398-222c6efe1d8e)
+![Screenshot 2025-02-16 202807](https://github.com/user-attachments/assets/4cd8e1ee-e827-4676-9dbe-b09d5a8aa852)
 
 ### 4️⃣ Sentiment Distribution Chart
 
-![image](https://github.com/user-attachments/assets/ac69bd67-5499-4d4c-9f84-7630be04ec81)
+![Screenshot 2025-02-16 202908](https://github.com/user-attachments/assets/2a3f84f1-91e0-4b9e-8ff9-b0bd84d02cb0)
 
 ### 5️⃣ Word Cloud of Comments
 
-![image](https://github.com/user-attachments/assets/df0d2eea-2f71-489f-814b-55ffdf1926b5)
+![Screenshot 2025-02-16 203017](https://github.com/user-attachments/assets/eeac1afc-6a38-4484-892a-8c936ed1f9f0)
 
 ## 🎯 **Future Enhancements**
 
