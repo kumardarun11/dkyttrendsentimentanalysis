@@ -15,11 +15,13 @@ st.set_page_config(
 )
 
 import os
-# 🔑 Replace with your actual YouTube API Key
+
 API_KEY = os.getenv("GOOGLE_API_KEY")
+
 if not API_KEY:
-    raise ValueError("Missing API Key! Set GOOGLE_API_KEY in GitHub Secrets.")
-print("API Key Loaded Successfully")  # Avoid printing actual key for security
+    raise ValueError("GOOGLE_API_KEY is missing! Make sure it's set in GitHub Secrets.")
+
+print("API Key Loaded Successfully (Masked)")  # Avoid printing actual key
 youtube = build("youtube", "v3", developerKey=API_KEY)
 
 # 📌 Fetch trending videos
