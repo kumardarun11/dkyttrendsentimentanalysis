@@ -2,7 +2,7 @@
 
 📊 A **YouTube Trend & Sentiment Analysis Dashboard** built with **Streamlit**, **Google API**, and **Python** to explore trending videos, engagement metrics, and audience sentiment.
 
-## 🔗 **Live Demo:** [DK YouTube Trending Analysis Dashboard](https://kd11yttrendsentimentanalysis.streamlit.app/))
+## 🔗 **Live Demo:** [DK YouTube Trending Analysis Dashboard](https://kd11yttrendsentimentanalysis.streamlit.app/)
 
 ## 📌 **Features**
 
